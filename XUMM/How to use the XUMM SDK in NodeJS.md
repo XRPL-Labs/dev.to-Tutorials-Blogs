@@ -17,7 +17,7 @@ I published a [beginners course on setting up a code editor (Visual Studio Code)
 
 ### Prerequisite
 
-Prior to following this XUMM SDK tutorial, I assume you setup your environment and followed the steps outlined in my [previous tutorial](https://coil.com/p/wietse/Coding-the-XRP-ledger-A-beginners-course-/kKu7G0Hhq) - meaning your coding environment is ready.
+Prior to following this XUMM SDK tutorial, we assume you setup your environment and followed the steps outlined in my [previous tutorial](https://coil.com/p/wietse/Coding-the-XRP-ledger-A-beginners-course-/kKu7G0Hhq) - meaning your coding environment is ready.
 
 [![Watch this step on Youtube](https://dev-to-uploads.s3.amazonaws.com/i/ke56jhpeq6gmjerebicr.png)](https://youtu.be/9gVK6fp3UOo)
 
@@ -148,7 +148,7 @@ So you sent a payload to the XUMM platform sing the XUMM SDK, and got yourself a
 
 You opened the `next.always` URL, scanned the QR code with your smartphone running XUMM (or from your smartphone: got redirected to the XUMM app) and signed your request. That's already pretty sweet!
 
-But now it's time to verify the payload outcome. And didn't I promise that, once signed, you'd get a `user token` to send your next payload using a Push notification? 
+But now it's time to verify the payload outcome. And didn't we promise that, once signed, you'd get a `user token` to send your next payload using a Push notification? 
 
 #### Please note: this is where this tutorial gets (even) more technical. Software developers will be able to follow this. If you've never coded before this will probably require some more spare time ;)
 
