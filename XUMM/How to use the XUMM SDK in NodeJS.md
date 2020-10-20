@@ -13,7 +13,7 @@ The transaction can then be automatically sent to the XRP ledger. The initiating
 
 #### To make it really easy to interact with the XUMM API & build intuitive flows for end users to sign their transactions, we just released the *XUMM SDK* ([npm](https://www.npmjs.com/package/xumm-sdk)) for **Javascript**, **Typescript** and **[Deno](https://deno.land/x/xumm@deno_v0.1.2.1)** environments.
 
-I published a [beginners course on setting up a code editor (Visual Studio Code) & interacting with the XRP ledger](https://coil.com/p/wietse/Coding-the-XRP-ledger-A-beginners-course-/kKu7G0Hhq) by writing your first few lines of Javascript code about a year ago.
+We published a [beginners course on setting up a code editor (Visual Studio Code) & interacting with the XRP ledger](https://coil.com/p/wietse/Coding-the-XRP-ledger-A-beginners-course-/kKu7G0Hhq) by writing your first few lines of Javascript code about a year ago.
 
 ### Prerequisite
 
