@@ -139,7 +139,7 @@ Our code now looks like this:
 
 {% gist https://gist.github.com/WietseWind/d6e20688389a02f351e3486f1f381779 file=index.js %}
 
-Let's run this code. In the terminal panel, type the previously issued comand to run our code: `node index.js`. This should get you your very first XUMM sign request 🎉
+Let's run this code. In the terminal panel, type the previously issued command to run our code: `node index.js`. This should get you your very first XUMM sign request 🎉
 
 ![Your first payload!](https://dev-to-uploads.s3.amazonaws.com/i/oi1etslmure3qdj0114z.gif)
 
@@ -195,7 +195,7 @@ Wrapping the XRP ledger transaction template in a `txjson` object, and adding th
   "txjson": {
     "TransactionType": "Payment",
     "Destination": "rwietsevLFg8XSmG3bEZzFein1g8RBqWDZ",
-    "Amout": "10000"
+    "Amount": "10000"
   },
   "user_token": "..."
 }
