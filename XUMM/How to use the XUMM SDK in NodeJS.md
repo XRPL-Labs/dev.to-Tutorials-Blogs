@@ -1,3 +1,7 @@
+Preview at [dev.to](https://dev.to/wietse/how-to-use-the-xumm-sdk-in-node-js-5380?preview=78d28d8539a98cc4e6a6769d300b81897bf9b964f4374aca60ddf307b3d64ab790027e3958b0503551e3adba45ab898e057c304b0847ea2f89c87efd)
+
+---
+
 The XUMM API allows developers to deliver sign requests (payloads) to app users.
 
 A payload is a JSON formatted transaction template for a transaction on the XRP ledger. XUMM app users can [scan a QR code](https://www.youtube.com/watch?v=P6hL1FDvF4c) or receive a push notification to open the sign request. A user views & rejects or signs, after which the transaction will be signed locally.
