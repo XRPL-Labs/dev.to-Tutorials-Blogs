@@ -68,6 +68,8 @@ const main = async () => {
 main()
 ```
 
+**Please replace `Your-App-Id` and `Your-App-Secret` in the code with your credentials obtained from the XUMM Developer Console.**
+
 So: what does this code actually mean/do?
 
 - First we 'import' the XUMM SDK we installed using `npm` in step 3 (above) in our code. We're using the `xumm-sdk` package, and we're calling it `XummSdk` in our code
@@ -133,6 +135,8 @@ If (like in the minimal example above) no amount is entered, the end user will b
 
 This sample specifies an amount in Drops (one XRP is one million Drops, the featured **ten thousand drops** represent 0.01 XRP) and a Memo ([HEX encoded](https://gist.github.com/WietseWind/5cbcc8d15fa2be3ae7d4c20962af0a8e) string). Let's use this example in our code.
 
+_Please change the destination account to an account (and possibly: DestinationTag) you own, or you'll be testing sending a small amount of XRP to the XRPL Labs team ;)_
+
 We're going to use the `Sdk.payload.create()` method to do this. We'll provide **two** arguments to the `Sdk.payload.create(..., ...)` method.
 
 The first argument will be our payload (like above) and in the second argument we will provide a flag (boolean, `true`) telling the code to return an error, if one occurs.
@@ -188,6 +192,8 @@ The user token is a unique token for **your XUMM app** in combination with **the
 }
 ```
 
+_Please change the destination account to an account (and possibly: DestinationTag) you own, or you'll be testing sending a small amount of XRP to the XRPL Labs team ;)_
+
 This payload only contains the XRP ledger specific transaction template. Because we are now going to send XUMM platform specific information as well, we need to wrap the XRP ledger transaction template in an object called `txjson`. We can then add [XUMM platform specific information](https://xumm.readme.io/reference/post-payload) to the payload as well, like `options`, `custom_meta` and the `user_token`.
 
 Wrapping the XRP ledger transaction template in a `txjson` object, and adding the `user_token` property, our payload now looks like this:
@@ -202,6 +208,7 @@ Wrapping the XRP ledger transaction template in a `txjson` object, and adding th
   "user_token": "..."
 }
 ```
+_Please change the destination account to an account (and possibly: DestinationTag) you own, or you'll be testing sending a small amount of XRP to the XRPL Labs team ;)_
 
 If we use the user token we got from our previously signed payload and use that in our code, you'll see your sign request popping up on your phone :D
 
