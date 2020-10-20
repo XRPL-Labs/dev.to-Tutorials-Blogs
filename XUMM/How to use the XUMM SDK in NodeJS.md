@@ -1,5 +1,8 @@
 Preview at [dev.to](https://dev.to/wietse/how-to-use-the-xumm-sdk-in-node-js-5380?preview=78d28d8539a98cc4e6a6769d300b81897bf9b964f4374aca60ddf307b3d64ab790027e3958b0503551e3adba45ab898e057c304b0847ea2f89c87efd)
 
+### Please note: this content will be split up:
+Every chapter a separate tutorial referring to the previous and next post.
+
 ---
 
 The XUMM API allows developers to deliver sign requests (payloads) to app users.
