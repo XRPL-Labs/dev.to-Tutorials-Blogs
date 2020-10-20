@@ -160,7 +160,7 @@ The subscription for payload events will stay alive until something is returned 
 
 {% gist https://gist.github.com/WietseWind/e8b07274192020eb65f75b98568b903f file=index.js %}
 
-When you execute this code, you'll immediately see the payload response containing the URL to open the paload. All the way down we console log the `subscription.created` object, containing the created payload data we previously got directly from the `create()` method. 
+When you execute this code, you'll immediately see the payload response containing the URL to open the payload. All the way down we console log the `subscription.created` object, containing the created payload data we previously got directly from the `create()` method. 
 
 The other code only executes right after, as the first payload events are fired once the SDK connected to the XUMM platform.
 
