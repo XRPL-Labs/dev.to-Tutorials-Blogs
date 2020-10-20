@@ -114,12 +114,14 @@ Let's run this:
 Looks like we can reach the XUMM platform 🎉 😎
 
 ## 3. Your first payload 🔔
-Now we've established a connection to the XUMM platform using the XUMM SDK, it's time to actually send something we can sign. Some things to consider:
+Now we've established a connection to the XUMM platform using the XUMM SDK, it's time to actually send something we can sign. We'll send a "transaction template" to the XUMM platform, called a `Payload`. The lifecycle of a payload is explained [in more detail](https://xumm.readme.io/docs/payload-workflow) in the XUMM API documentation.
+
+Some things to consider:
 
 1. A payload (sign request) sent to the XUMM platform should be formatted as per [XRP ledger transaction specificaftions](https://xrpl.org/transaction-types.html), but some fields may be omitted as XUMM will fill them
 2. Usually, a payload (sign request) sent to the XUMM platform will be signed by end users (eg. for a sign in, subscription, payment, ...). For this tutorial, you'll be the initiator and the end user, signing (or rejecting) your own payload.
 3. The **first sign request** from a specific XUMM app will **always** have to be **scanned using a QR** code (desktop) **or redirected (mobile)**. Once an end user trusts your application (by signing your request) your application can obtain a user specific `user token` to deliver future sign requests using push notificaftions.
-4. This tutorial is running on your own computer, from the terminal. We'll just have to copy/paste a sign request URL to our browser. In a real life application, a nicer flow for end users can be created with [redirects](https://xumm.readme.io/docs/payload-workflow) / [live status updates](https://xumm.readme.io/docs/payload-status#websocket) / [push & fallback QR codes](https://xumm.readme.io/docs/pushing-sign-requests), etc. That's for another day.
+4. This tutorial is running on your own computer, from the terminal. We'll just have to copy/paste a sign request URL to our browser. In a real life application, a nicer flow for end users can be created with redirects / [live status updates](https://xumm.readme.io/docs/payload-status#websocket) / [push & fallback QR codes](https://xumm.readme.io/docs/pushing-sign-requests), etc. That's for another day.
 
 Our first payload will be a `Payment` transaction type. A really basic `Payment` payload you can send to the XUMM platform would be:
 
