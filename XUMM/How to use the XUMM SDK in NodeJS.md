@@ -59,7 +59,7 @@ For this example we will use a Javascript (node) environment. More experienced d
 
 ```javascript
 const {XummSdk} = require('xumm-sdk')
-const Sdk = new XummSdk('Your-App-Id', 'Your-App-Secret')
+const Sdk = new XummSdk('Your-API-Id', 'Your-API-Secret')
 
 const main = async () => {
   console.log(`Hi! This is where we'll be writing some code`)
@@ -68,7 +68,7 @@ const main = async () => {
 main()
 ```
 
-**Please replace `Your-App-Id` and `Your-App-Secret` in the code with your credentials obtained from the XUMM Developer Console.**
+**Please replace `Your-API-Id` and `Your-API-Secret` in the code with your credentials obtained from the XUMM Developer Console.**
 
 So: what does this code actually mean/do?
 
