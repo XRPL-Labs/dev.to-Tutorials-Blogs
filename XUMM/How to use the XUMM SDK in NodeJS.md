@@ -218,7 +218,7 @@ Now we'll run it, keeping an eye on our phone:
 
 ![Sign request Push notification](https://dev-to-uploads.s3.amazonaws.com/i/mh1zt643l9g007kd12ym.gif)
 
-When using this in applications, it would make sense to check the `pushed` property of a created payload. If `false` the Push notification could not be sent (eg. permissions revoked by the user), and your applicaftion should fall back to the QR method. If `pushed` is `true`, it makes sense to show the end user a button to show the QR code anyway if they didn't receive the push notificaftion (eg. changed devices / other device).
+When using this in applications, it would make sense to check the `pushed` property of a created payload. If `false` the Push notification could not be sent (eg. permissions revoked by the user), and your application should fall back to the QR method. If `pushed` is `true`, it makes sense to show the end user a button to show the QR code anyway if they didn't receive the push notificaftion (eg. changed devices / other device).
 
 ## 5. Security & finishing touch 🎉
 
