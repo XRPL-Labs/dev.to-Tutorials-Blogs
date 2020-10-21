@@ -31,18 +31,18 @@ After logging in, [create a new application](https://apps.xumm.dev/create-applic
 
 For this tutorial entering a `Webhook URL` is not required.
 
-#### After creating your new XUMM API application, you'll be taken to a page showing your `App ID` and `App Secret`. 
+#### After creating your new XUMM API application, you'll be taken to a page showing your `API Key` and `API Secret`. 
 
 Example credentials (where to look for):
 [New App credentials](https://dev-to-uploads.s3.amazonaws.com/i/0ypo6flou5t29b09996t.png)
 
 ### ❗ _**Keep these credentials safe!**_
 
-You can always find your App ID in the XUMM Developer Console, but your **App Secret** will be displayed **only once**. You can always re generate it, but doing so will require updating the App Secret in your applications.
+You can always find your **API Key** in the XUMM Developer Console, but your **API Secret** will be displayed **only once**. You can always re generate it, but doing so will require updating the API Secret in your applications.
 
 ### ❗ _**Never share/publish your app credentials!**_
 
-Your **App Secret** is for backend use only. Never use these credentials in a frontend, client side project. When you think your **App Secret** is compromised, please re generate your secret in the XUMM Developer Console.
+Your **API Secret** is for backend use only. Never use these credentials in a frontend, client side project. When you think your **API Secret** is compromised, please re generate your secret in the XUMM Developer Console.
 
 Congratulations, you have registered your first (?) XUMM App. Let's get started!
 
@@ -73,7 +73,7 @@ main()
 So: what does this code actually mean/do?
 
 - First we 'import' the XUMM SDK we installed using `npm` in step 3 (above) in our code. We're using the `xumm-sdk` package, and we're calling it `XummSdk` in our code
-- Then we initialize a new instance of the SDK, which we call `Sdk`. We'll use this one later on. As we don't interact with the XUMM SDK just yet, the dummy App ID and App Secret do not matter (yet)
+- Then we initialize a new instance of the SDK, which we call `Sdk`. We'll use this one later on. As we don't interact with the XUMM SDK just yet, the dummy API Key and API Secret do not matter (yet)
 - We define a function called `main`, and we 'tell' node that this function is asynchronous (async), meaning we can run code, wait for a response and then continue running more code
 - In our function, we just put the code to output a message to the terminal, using the `console.log` method.
 - Lastly, we call our `main` function so the code will actually run
@@ -87,7 +87,7 @@ This will tell `node` to run all code in your `index.js` file. You should receiv
 
 ![Run your code :)](https://dev-to-uploads.s3.amazonaws.com/i/jz54g0zdsnarj8xfszzk.gif)
 
-If you have your App ID and App Secret in place (see placeholder values in code above) you can check if everything is working by asking the XUMM Platform to return your registered XUMM app name.
+If you have your API Key and API Secret in place (see placeholder values in code above) you can check if everything is working by asking the XUMM Platform to return your registered XUMM app name.
 
 Replace your line of code containing `console.log(...)` with a `ping` request to the XUMM platform:
 
