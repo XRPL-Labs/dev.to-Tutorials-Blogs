@@ -188,7 +188,7 @@ The user token is a unique token for **your XUMM app** in combination with **the
 {
   "TransactionType": "Payment",
   "Destination": "rwietsevLFg8XSmG3bEZzFein1g8RBqWDZ",
-  "Amout": "10000"
+  "Amount": "10000"
 }
 ```
 
