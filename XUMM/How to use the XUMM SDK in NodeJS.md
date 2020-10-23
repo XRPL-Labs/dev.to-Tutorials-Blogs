@@ -59,9 +59,9 @@ main()
 
 What does this code actually do?
 
-- First, we 'import' the XUMM SDK that we installed using `npm`into our code - step 3 above. We are using the `xumm-sdk` package, and we are calling it `XummSdk` in our code.
+- First, we 'import' the XUMM SDK that we installed using `npm` into our code - step 3 above. We are using the `xumm-sdk` package, and we are calling it `XummSdk` in our code.
 - we then initialize a new instance of the SDK, which we call `Sdk`. We will use this one later in the project as we don't interact with the XUMM SDK just yet. While not needed yet in the project the dummy API Key and API Secret need to be inserted here.
-- We then define a function called `main' and we 'tell' node that this function is asynchronous (async); meaning we can run code, wait for a response, then continue running more code.
+- We then define a function called `main` and we 'tell' node that this function is asynchronous (async); meaning we can run code, wait for a response, then continue running more code.
 - In the function we have just created, we then tell the code to output a message to the terminal, using the `console.log` method.
 - Lastly, we call our `main` function so the code will actually run.
 
