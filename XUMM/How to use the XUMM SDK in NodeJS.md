@@ -46,8 +46,7 @@ For this example we will use a Javascript (node) environment. More experienced d
 3. **Install the XUMM SDK** in your project using the '_node package manager_'.  Open the terminal - **Terminal » New terminal** and at the prompt enter `npm install xumm-sdk`
 4. **Copy then paste** the following boilerplate code into your `index.js` file:
 
-```
-javascript
+```javascript
 const {XummSdk} = require('xumm-sdk')
 const Sdk = new XummSdk('Your-API-Id', 'Your-API-Secret')
 
@@ -69,6 +68,7 @@ What does this code actually do?
 - Lastly, we call our `main` function so the code will actually run.
 
 Now let's run this code. In the terminal panel, type:
+
 ```bash
 node index.js
 ```
@@ -198,6 +198,7 @@ Wrapping the XRP ledger transaction template in a `txjson` object, and adding th
   "user_token": "..."
 }
 ```
+
 _Please change the destination account to an account that you own (remember to use your destination tag if this is required), or if you wish, you can test by sending a small amount of XRP to the XRPL Labs team by using the account in the example. _
 
 If we use the user token we received from our previously signed payload and use that in our code, you will see your sign request popping up on your smartphone. Well done!
