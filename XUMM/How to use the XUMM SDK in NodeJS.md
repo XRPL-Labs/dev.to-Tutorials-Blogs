@@ -1,6 +1,4 @@
-The **XUMM API** will allow developers to deliver sign requests (payloads) to app users.
-
-A **payload** is a JSON formatted transaction template for a transaction on the XRP ledger.
+The **XUMM API** will allow developers to deliver sign requests (payloads) to app users. A **payload** is a JSON formatted transaction template for a transaction on the XRP ledger.
 
 XUMM app users can [scan a QR code](https://www.youtube.com/watch?v=P6hL1FDvF4c) or receive a push notification to open the sign request for a transaction. A user views the sign request and either authorizes XUMM to sign it or rejects it. If authorized, the sign request will be signed locally via XUMM, if rejected the sign request is destroyed and the transaction does not happen.
 
