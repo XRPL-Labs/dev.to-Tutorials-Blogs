@@ -10,7 +10,7 @@ If authorized the transaction can then be sent directly to the XRP ledger. The i
 
 We have provided a [beginners course on setting up a code editor (Visual Studio Code) & interacting with the XRP ledger using Javascript code](https://coil.com/p/wietse/Coding-the-XRP-ledger-A-beginners-course-/kKu7G0Hhq). This is till available for viewing and instructions.
 
-### Prerequisite
+### Pre-requisite
 
 Before beginning this XUMM SDK tutorial, we assume that you are ready to code with your code environment already set up and if required, you have followed the steps outlined in my [previous tutorial](https://coil.com/p/wietse/Coding-the-XRP-ledger-A-beginners-course-/kKu7G0Hhq).
 
@@ -18,7 +18,7 @@ Before beginning this XUMM SDK tutorial, we assume that you are ready to code wi
 
 Visit the **[XUMM Developer Console](http://apps.xumm.dev/)** by navigating to https://apps.xumm.dev. If this is your first time using the XUMM Developer Console, you will need to register an account OR sign in with your Github account, if you have one.
 
-After logging in to the **XUMM Deveoper Console**, [create a new application](https://apps.xumm.dev/create-application) by clicking the `Create new application` button. Enter a title and description for your app and upload an icon or picture if desired. If you are only going to be playing and testing with the API, the app title and description do not matter.
+After logging in to the **XUMM Developer Console**, [create a new application](https://apps.xumm.dev/create-application) by clicking the `Create new application` button. Enter a title and description for your app and upload an icon or picture if desired. If you are only going to be playing and testing with the API, the app title and description do not matter.
 
 For this tutorial entering a `Webhook URL` is not required.
 
