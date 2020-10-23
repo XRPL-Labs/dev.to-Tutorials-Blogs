@@ -243,7 +243,3 @@ If you want to dive into the XUMM SDK, patform, documentation, etc. some more, m
 - The XUMM API [documentation](https://xumm.readme.io/docs) & API [reference](https://xumm.readme.io/reference/about)
 - XUMM (end user) [support docs](https://support.xumm.app/)
 - In case of questions: [support@xumm.app](mailto:support@xumm.app?subject=XUMM+SDK+-+dev.to)
-
-#### Special thanks
-
-Thank you [@technotip](https://twitter.com/technotip) for working on a video tutorial version (to be released soon)
