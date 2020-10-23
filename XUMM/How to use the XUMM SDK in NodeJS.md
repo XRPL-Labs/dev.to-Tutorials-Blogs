@@ -19,13 +19,9 @@ We published a [beginners course on setting up a code editor (Visual Studio Code
 
 Prior to following this XUMM SDK tutorial, we assume you setup your environment and followed the steps outlined in my [previous tutorial](https://coil.com/p/wietse/Coding-the-XRP-ledger-A-beginners-course-/kKu7G0Hhq) - meaning your coding environment is ready.
 
-[![Watch this step on Youtube](https://dev-to-uploads.s3.amazonaws.com/i/ke56jhpeq6gmjerebicr.png)](https://youtu.be/9gVK6fp3UOo)
-
 ## 1. Get your XUMM API credentials 🔑
 
 Visit the **[XUMM Developer Console](http://apps.xumm.dev/)** by navigating to https://apps.xumm.dev. If this is the first time using the XUMM Developer Console, you can register an account or (if you have one) sign in with your Github account.
-
-[![Watch this step on Youtube](https://dev-to-uploads.s3.amazonaws.com/i/ke56jhpeq6gmjerebicr.png)](https://youtu.be/tdoLbHiMTGo)
 
 After logging in, [create a new application](https://apps.xumm.dev/create-application) by clicking the `Create new application` button. Enter a title & description for your app and upload a nice icon or picture. If you are just going to have some fun with the API, the app title and description do not really matter.
 
@@ -49,8 +45,6 @@ Congratulations, you have registered your first (?) XUMM App. Let's get started!
 ## 2. Prepare your project & start coding 🔨
 
 For this example we will use a Javascript (node) environment. More experienced developers will probably use Typescript or Deno, but to keep this tutorial as simple as possible we'll go with plain Javascript.
-
-[![Watch this step on Youtube](https://dev-to-uploads.s3.amazonaws.com/i/ke56jhpeq6gmjerebicr.png)](https://youtu.be/pgSckFopZ6Q)
 
 1. Open the code editor (Visual Studio Code) and create a new file (File » New file)
 2. Save (File » Save) your newly created file. Browse to a location that makes sense, create a new folder (eg. `xumm-sdk-tutorial`) and save your file as **`index.js`**
@@ -252,4 +246,4 @@ If you want to dive into the XUMM SDK, patform, documentation, etc. some more, m
 
 #### Special thanks
 
-Thank you [@technotip](https://twitter.com/technotip) for your tutorial video's!
+Thank you [@technotip](https://twitter.com/technotip) for working on a video tutorial version (to be released soon)
